@@ -11,4 +11,4 @@ import { MonitorScreenComponent } from './monitor-screen/monitor-screen.componen
     CommonModule
   ]
 })
-export class MonitorModule { }
+export class MonitorModule {}

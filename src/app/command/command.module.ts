@@ -11,4 +11,4 @@ import { CommandGeneratorComponent } from './command-generator/command-generator
     CommonModule
   ]
 })
-export class CommandModule { }
+export class CommandModule {}

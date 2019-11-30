@@ -10,6 +10,7 @@ export class LoggerScreenComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log("LOGGER COMPONENT INIT");
   }
 
 }
