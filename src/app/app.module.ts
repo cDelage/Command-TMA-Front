@@ -11,10 +11,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { CommandHandleComponent } from './command/command-handle/command-handle.component';
-import { CommandGeneratorComponent } from './command/command-generator/command-generator.component';
-import { LoggerScreenComponent } from './monitor/logger-screen/logger-screen.component';
-import { MonitorScreenComponent } from './monitor/monitor-screen/monitor-screen.component';
 import { MonitorModule } from './monitor/monitor.module';
 import { CommandModule } from './command/command.module';
 
