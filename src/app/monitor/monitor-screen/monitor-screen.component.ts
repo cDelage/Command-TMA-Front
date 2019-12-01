@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MonitorScreenComponent implements OnInit {
 
+  isUpToDate = false;
+
   constructor() { }
 
   ngOnInit() {
