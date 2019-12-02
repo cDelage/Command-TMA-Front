@@ -6,7 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./command-list.component.scss']
 })
 export class CommandListComponent implements OnInit {
-  @Input() status: String;
+
+  @Input() status: Number;
+
   detailListOrder= [
     {
       commandId: 1,
@@ -29,6 +31,13 @@ export class CommandListComponent implements OnInit {
       idMagasin: '3'
     }
   ]
+
+  isNotUpgradable = true;
+
+  // if (status == 1)
+  // {
+  //   isNotUpgradable = false;
+  // }
 
   constructor() { }
 
