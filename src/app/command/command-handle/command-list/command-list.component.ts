@@ -8,27 +8,38 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CommandListComponent implements OnInit {
   @Input() status: String;
   detailListOrder = [
+
+  @Input() status: Number;
+
+  detailListOrder= [
     {
       commandId: 1,
-      idEntrepot: 1,
-      idMagasin: 1
+      idEntrepot: '1',
+      idMagasin: '2'
     },
     {
       commandId: 2,
-      idEntrepot: 1,
-      idMagasin: 1
+      idEntrepot: '1',
+      idMagasin: '3'
     },
     {
       commandId: 3,
-      idEntrepot: 1,
-      idMagasin: 2
+      idEntrepot: '3',
+      idMagasin: '2'
     },
     {
       commandId: 4,
-      idEntrepot: 1,
-      idMagasin: 3
+      idEntrepot: '2',
+      idMagasin: '3'
     }
   ]
+
+  isNotUpgradable = true;
+
+  // if (status == 1)
+  // {
+  //   isNotUpgradable = false;
+  // }
 
   constructor() { }
 
