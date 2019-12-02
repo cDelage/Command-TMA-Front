@@ -6,20 +6,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./command-handle.component.scss']
 })
 export class CommandHandleComponent implements OnInit {
-commandListScreen = [
+commandListScreenOne = [
   {
     statusList: 1
-  },
+  }
+]
+commandListScreenTwo = [
+
   {
     statusList: 2
-  },
+  }
+]
+commandListScreenThree = [
+
   {
     statusList: 3
-  },
+  }
+]
+commandListScreenFour = [
   {
     statusList: 4
   }
 ]
+
   constructor() { }
 
   ngOnInit() {

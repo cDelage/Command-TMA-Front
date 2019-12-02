@@ -1,10 +1,10 @@
-<p>command-detail works!</p>
-<table>
-        <tr>
-          <td>{{ idCommande }}</td>
-          <td>{{ idMag }}</td>
-          <td>{{ idEnt }}</td>
-          <td><button class="btn-back"></button></td>
-          <td><button class="btn-next"></button></td>
-        </tr>
-</table>
+<div class="container">
+    <div class="row border-bottom">
+      <div class="col-sm">{{ idCommande }}</div>
+
+      <div class="col-sm">{{ idMag }}</div>
+      <div class="col-sm">{{ idEnt }}</div>
+      <div class="col-sm"><button class="glyphicon glyphicon-arrow-left">Downgrade</button></div>
+      <div class="col-sm"><button type="button" class="glyphicon glyphicon-chevron-right">Upgrade</button></div>
+    </div>
+  </div>

@@ -7,9 +7,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CommandDetailComponent implements OnInit {
 
-  @Input() idCommande : number;
-  @Input() idMag : number;
-  @Input() idEnt : number;
+  @Input() idCommande :  number;
+  @Input() idMag : string;
+  @Input() idEnt : string;
 
   constructor() { }
 
