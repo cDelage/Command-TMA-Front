@@ -6,6 +6,7 @@ import { MonitorScreenComponent } from './monitor/monitor-screen/monitor-screen.
 import { LoggerScreenComponent } from './monitor/logger-screen/logger-screen.component';
 
 
+
 const routes: Routes = [
   {
     path: 'cmdhandle',
@@ -22,7 +23,8 @@ const routes: Routes = [
   {
     path : 'applogger',
     component : LoggerScreenComponent
-  }
+  },
+
 ];
 
 @NgModule({
