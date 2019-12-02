@@ -34,17 +34,14 @@ export class CommandListComponent implements OnInit {
     }
   ]
 
-  isNotUpgradable = true;
-
-  // if (status == 1)
-  // {
-  //   isNotUpgradable = false;
-  // }
+  isUpgradable = true;
+  isDowngrable = true;
 
   constructor() { }
 
   ngOnInit() {
     console.log("init list");
+     
   }
 
 }

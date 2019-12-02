@@ -11,6 +11,9 @@ export class CommandDetailComponent implements OnInit {
   @Input() idMag : string;
   @Input() idEnt : string;
 
+  isUpgradable = true;
+  isDowngrable = true;
+
   constructor() { }
 
   ngOnInit() {
