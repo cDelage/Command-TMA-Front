@@ -22,6 +22,7 @@
     "@angular/platform-browser-dynamic": "~8.2.8",
     "@angular/router": "~8.2.8",
     "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
     "jquery": "^3.4.1",
     "popover.js": "^0.2.40",
     "popper.js": "^1.16.0",

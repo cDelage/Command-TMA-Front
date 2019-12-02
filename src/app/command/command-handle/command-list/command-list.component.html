@@ -1,4 +1,5 @@
 <h2>Mon status {{ status }}</h2>
 <ul class="list-group">
-<app-command-detail *ngFor="let detail of detailListOrder" [idCommande]="detail.commandId" [idMag]="detail.idMagasin" [idEnt]="detail.idEntrepot"></app-command-detail>
+    <app-command-detail *ngFor="let iterator of detailListOrder" [idCommande]="iterator.commandId"
+        [idMag]="iterator.idMagasin" [idEnt]="iterator.idEntrepot"></app-command-detail>
 </ul>

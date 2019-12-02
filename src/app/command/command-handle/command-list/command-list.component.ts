@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CommandListComponent implements OnInit {
   @Input() status: String;
-  detailListOrder: [
+  detailListOrder = [
     {
       commandId: 1,
       idEntrepot: 1,
