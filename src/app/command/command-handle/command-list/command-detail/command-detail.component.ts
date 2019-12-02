@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-command-detail',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommandDetailComponent implements OnInit {
 
+  @Input() idCommande : number;
+  @Input() idMag : number;
+  @Input() idEnt : number;
+
   constructor() { }
 
   ngOnInit() {
+    console.log("init detail");
   }
 
 }

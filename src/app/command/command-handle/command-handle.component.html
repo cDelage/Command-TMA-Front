@@ -1,6 +1,4 @@
-
-<body>
-    <p>command-handle works!</p>
-
-  </body>
-
+<p>handle work</p>
+<ul class="list-group">
+<app-command-list *ngFor="let singleList of commandListScreen" [status]="singleList.statusList"></app-command-list>
+</ul>
